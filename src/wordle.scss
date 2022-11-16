@@ -56,10 +56,10 @@ body {
         .keyboardrow3{
             display: grid;
             grid-template-rows: 100%;
-            grid-template-columns: 1fr repeat(7, 1fr) 1fr;
+            grid-template-columns: 0.5fr repeat(8, 1fr) 0.5fr;
             gap: 3px;
             #spacekey{
-                grid-column: 4/7;   
+                grid-column: 4/8;   
             }
         }
     }
